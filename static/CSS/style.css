@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(253, 255, 254);
+}
+
+html body{
+    height: 100%;
+}
+.content{
+    max-width: 600px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: aqua;
+}
+
+::marker {
+    color: rgb(0 255 255);
+}
+
+.list {
+        position: relative;
+        float: right;
+        top: 0px;
+        width: 33px;
+}
+
+
+
+.name {
+    position: relative;
+    left: 50px;
+    top: -76px;
+}
+
+.hobbies {
+    position: relative;
+    top: -76px;
+    left: 50px;
+    width: 430px;
+    background-color: cornsilk;
+}
+.date {
+    position: relative;
+    text-align: left;
+    top: -30px;
+    left: 50px;
+}
+.posts{
+    background-color: aqua;
+    
+}
+
+form {
+    position: relative;
+    text-align: center;
+}
+a {
+    position: relative;
+    left: 84%;
+    top: 1px;
+    font-size: 20px;
+}
+.logo img {
+    width: 85px;
+    position: relative;
+    right: 7%;
+    top: 13px;
+}
+li .listd{
+    display: none;
+}
+form{
+    padding: 10%;
+    gap:10px;
+}
+section.postform {
+    border-style: solid;
+    border-color: magenta;
+}
+input[type="text"] {
+    margin: 15px;
+}
